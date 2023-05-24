@@ -7,7 +7,8 @@ import express from "express";
 import http from "http";
 import mongoose from "mongoose";
 
-const MONGO_URI = "";
+const MONGO_URI =
+  "mongodb+srv://koboatengdev:x9jqBWFppjtnzh8a@cluster0.p0zmtla.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 

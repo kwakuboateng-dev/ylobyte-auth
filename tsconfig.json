@@ -5,8 +5,7 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "baseUrl": "src",
-    "outDir": "dist",
-    "strictNullChecks": false
+    "outDir": "dist"
   },
   "include": ["src/**/*"]
 }
