@@ -1,4 +1,4 @@
-⏱ IN PROGRESS -> init -> server-init -> 
+⏱ IN PROGRESS -> init -> server-init -> connected to mongoDB -->
 
 # Ylobyte-Auth
 
