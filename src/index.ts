@@ -1,11 +1,13 @@
 // console.log("Hello Ylobyte 🥚!");
-
 import bodyParser from "body-parser";
 import compression from "compression";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import express from "express";
 import http from "http";
+import mongoose from "mongoose";
+
+const MONGO_URI = "";
 
 const app = express();
 
@@ -23,4 +25,10 @@ const server = http.createServer(app);
 
 server.listen(8100, () => {
   console.log("Server running on http://localhost:8100");
+});
+
+mongoose.Promise = global.Promise;
+mongoose.connect(MONGO_URI);
+mongoose.connection.on("error", (err) => {
+  console.error(err);
 });
