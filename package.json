@@ -1,0 +1,25 @@
+{
+  "name": "ylobyte-auth",
+  "version": "1.0.0",
+  "description": "🔐 Are you tired of spending hours trying to figure out authentication for your applications? Look no further! Ylobyte-Auth is here to save the day! 💪",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kwakuboateng-dev/ylobyte-auth.git"
+  },
+  "author": "kwakuboateng-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwakuboateng-dev/ylobyte-auth/issues"
+  },
+  "homepage": "https://github.com/kwakuboateng-dev/ylobyte-auth#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
