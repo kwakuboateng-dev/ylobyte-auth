@@ -7,8 +7,9 @@ import express from "express";
 import http from "http";
 import mongoose from "mongoose";
 
-const MONGO_URI =
-  "mongodb+srv://koboatengdev:x9jqBWFppjtnzh8a@cluster0.p0zmtla.mongodb.net/?retryWrites=true&w=majority";
+const dotenv = require("dotenv").config();
+
+const MONGO_URI = process.env.MONGO_URI;
 
 const app = express();
 
@@ -25,7 +26,7 @@ app.use(cookieParser());
 const server = http.createServer(app);
 
 server.listen(8100, () => {
-  console.log("Server running on http://localhost:8100");
+  console.log("Server running on http://localhost:8080");
 });
 
 mongoose.Promise = global.Promise;
